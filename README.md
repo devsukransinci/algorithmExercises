@@ -1,31 +1,66 @@
-1.project Investment earnings :The example code keeps track of the change in stock price after each trading day. A user enters the buying price and the closing price on subsequent trading days. Then the earnings are evaluated. The process stops when a negative closing price is entered.
+# 🧠 Algorithm Exercises – Java Projects
 
-2.project Budget allocation: This example demonstrates the budget allocation task. A user inputs the amount available to spend. Then the user inputs the proportions of the amount on each expense item. The expense input can stop if the total proportion exceeds 100%. Finally, the program shows the amount spent on each expense item.
+Welcome to my collection of algorithmic mini-projects in Java!  
+These beginner-to-intermediate level projects are designed to help me and others strengthen our programming logic, problem-solving abilities, and hands-on Java skills through real-world inspired scenarios.
 
-3.project Average stock price : The program evaluates the average cost of the shares after a number of transactions. A Stock class is created, and the methods there can update the average cost of the shares after each transaction.
+## 📚 Project List
 
-4.project:Draw staircases :The program draws a staircase pattern. The step width and number of steps are given. Then the program draws the staircase pattern using nested for-loops.
+### 1. Investment Earnings  
+Tracks the change in stock price after each trading day. The user enters a buying price and closing prices; earnings are calculated until a negative price is entered.
 
-5.project Student selection :The program selects the students above a certain age. It first asks for the number of students. Then you input the names and their age. Finally, the program tells you the student names who are above a certain age.  Arrays are used in the program.
+### 2. Budget Allocation  
+Simulates budget planning by distributing a given amount across different expenses based on user-defined proportions. Stops if the total exceeds 100%.
 
-6.project Time adder:The program adds a time to a given time. It handles the issue of carry digits arising from adding seconds, minutes, and hours by using if statements.
+### 3. Average Stock Price  
+Calculates the average cost per share after multiple transactions using a custom `Stock` class.
 
-7.project Grade point average system :The program evaluates the grade point average of a student object using switch-case command. A student object is created, on which we give the subjects and the corresponding grades. Then we create a method to evaluate the grade point average. 
+### 4. Draw Staircases  
+Generates a staircase pattern using nested for-loops. Step width and height are user-defined.
 
-9.project Vehicle insurance:The program determines the vehicle insurance premium according to the vehicle type. Nested switch-case statements are employed to handle the further classification of vehicles. 
+### 5. Student Selection  
+Stores student names and ages using arrays. Filters and displays students above a specified age.
 
-10.project Word counter :The program counts the number of words in a string. It removes the leading and trailing spaces of the received string. Then it searches for the space-character pattern as the indicator of a word.
+### 6. Time Adder  
+Adds two time values, handling overflow of seconds, minutes, and hours with conditional logic.
 
-11.project Word occurrences counter:The program counts the number of occurrences of a word in a given string. It trims the string to remove the leading and trailing spaces. Then it counts the target word at the beginning and at the end, if any. Then it counts the target words surrounded by spaces. 
+### 7. GPA Calculator  
+Calculates a student's Grade Point Average using `switch-case`. Subjects and grades are stored in a student object.
 
-12.project Roster table:We set up a roster table using an ArrayList of ArrayLists. We also obtain the days of duty for a certain person. To do so, we loop over each element in the sub-ArrayLists.
 
-13.project Lottery number generator : We generate 6 numbers out of 49 numbers. We have to check that a drawn number is not repeating all the previously drawn numbers. We sort the results finally.
+### 9. Vehicle Insurance  
+Determines insurance premium based on vehicle type using nested `switch-case` structures.
 
-14.project Compare student marks : We compare the total marks for two students my implementing the compareTo method given by the Comparable interface. The total marks are obtained by adding the marks stored in the ArrayList elements. 
+### 10. Word Counter  
+Counts the number of words in a string by trimming spaces and detecting word boundaries.
 
-15.project Bank account with transfer feature : The program simulates a bank account system that allows transfer of money to another account. We also check whether the amount of transfer and withdrawal is allowed. 
+### 11. Word Occurrence Counter  
+Counts how often a specific word appears in a given string, handling edge positions and spacing.
 
-16.project :Restaurant billing system:The program simulates a restaurant billing system that allows adding order and finding out the total bill cost. The driver program creates a Bill instance and that instance can return the required quantities.
+### 12. Roster Table  
+Implements a weekly duty roster using an `ArrayList` of `ArrayLists`, allowing queries for individual schedules.
 
-17.project :Matrix multiplication:We perform matrix multiplication by using 2-dimensional arrays for Java. We make use of 3-level nested for-loops to evaluate each element of the result matrix. We also check for dimension match before performing the multiplication. 
+### 13. Lottery Number Generator  
+Generates 6 unique numbers out of 49 and displays them sorted.
+
+### 14. Compare Student Marks  
+Compares total marks of two students using the `Comparable` interface and data stored in `ArrayList`.
+
+### 15. Bank Account with Transfer  
+Simulates basic bank transactions including balance checks and money transfers between accounts.
+
+### 16. Restaurant Billing System  
+Calculates total order cost in a restaurant scenario by creating and querying a `Bill` class instance.
+
+### 17. Matrix Multiplication  
+Performs matrix multiplication using 2D arrays and nested loops. Validates dimension compatibility before processing.
+
+---
+
+## ✅ Notes
+
+- All projects are written in Java and cover key programming concepts such as conditionals, loops, arrays, classes, interfaces, and data structures.
+- These examples are designed for learning and revisi
+## 👩‍💻 About the Author
+
+This repository is maintained by **Şükran Sinci**, a passionate Java developer who is committed to improving her problem-solving skills through consistency, curiosity, and hands-on projects.  
+I believe that strong fundamentals in algorithms and clean code design are the keys to becoming a great developer.
